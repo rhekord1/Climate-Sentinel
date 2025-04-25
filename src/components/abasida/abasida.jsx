@@ -85,7 +85,22 @@ export default function Asida() {
                     </p>
                 </div>
             </div>
-            
+            <div className="">
+            <div className="">
+                <div className="flex gap-[50px] mt-[20px] justify-center mb-[30px]">
+                    <div className="bg-main-pattern h-[440px]  w-[441px]  bg-cover"></div>
+                    <div className="">
+                        <h2 className="font-[700] text-[60px] w-[550px] text-[#4d4d4d]">
+                        Our Goal
+                        </h2>
+                        <p className="w-[550px] text-[14px] font-[400] text-[#717171] mt-[16px]">
+                        Climate Sentinel is dedicated to protecting Ghana’s forests from illegal mining and deforestation through smart, AI-powered monitoring systems. We are developing and preparing to deploy our Eagle Devices—a network of intelligent sensors and cameras—across key forest reserves to detect harmful activities in real time. Our goal is to equip environmental agencies with the tools to act quickly, backed by accurate data and visual evidence. By 2030, we aim to place these devices in all 266 forest reserves, significantly reducing galamsey and preserving biodiversity. Through innovation, collaboration, and unwavering commitment, we strive to build a future where Ghana’s natural ecosystems are safeguarded and restored.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
          
             <section className="bg-custom-silver py-[32px] mt-[40px] ">
                 <TallFooter />
