@@ -4,63 +4,75 @@ import asidaimages2 from "../../assets/part2.png";
 
 export default function Wrapper() {
     return (
-        <div >
-            <div className="mt-[48px]">
-                <h2 className="text-[#4d4d4d] text-[36px] text-center font-[600]">
+        <div className="px-4 sm:px-6 lg:px-8">
+            {/* Recent Reports Section */}
+            <div className="mt-8 md:mt-[48px]">
+                <h2 className="text-[#4d4d4d] text-2xl sm:text-3xl lg:text-[36px] text-center font-[600]">
                     Recent Galamsey report
                 </h2>
-                <p className="w-[600px] text-[#717171] m-auto text-center mt-2">
+                <p className="w-full md:w-[600px] text-[#717171] mx-auto text-center mt-2 text-sm sm:text-base">
                     Illegal mining(galamsey), in Ghana has caused widespread environmental and health issues, including deforestation, water pollution, and chronic illnesses, while also harming key industries like cocoa farming.​
                 </p>
-                <div className="flex gap-6 justify-center mt-[16px] mb-[140px]">
+                
+                {/* Report Cards - Responsive Grid */}
+                <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 sm:gap-6 mt-4 sm:mt-[16px] mb-16 sm:mb-[140px]">
                     {/* First Report Card */}
-                    <div className="rounded w-[360px] h-[280px] bg-wrapper-pattern bg-cover bg-no-repeat bg-center">
-                        <div className="w-[300px] m-auto text-center bg-[#F5F7FA] p-2 rounded-[8px] mt-[190px] shadow-lg">
-                            <h4 className="w-[285px] font-[600] text-[20px] text-[#717171]">
-                            Galamsey, the highest cause of Ghana's vegetation loss.
+                    <div className="rounded w-full sm:w-[360px] h-[280px] bg-wrapper-pattern bg-cover bg-no-repeat bg-center">
+                        <div className="w-[90%] sm:w-[300px] mx-auto text-center bg-[#F5F7FA] p-2 rounded-[8px] mt-[190px] shadow-lg">
+                            <h4 className="w-full sm:w-[285px] font-[600] text-base sm:text-[20px] text-[#717171] mx-auto">
+                                Galamsey, the highest cause of Ghana's vegetation loss.
                             </h4>
-                            <h4 className="cursor-pointer flex gap-2 text-[#4CAF4F] font-[600] mt-[7px] text-[20px] mb-3 ml-[90px]">
-                                Readmore <FaArrowRight className="mt-2" />
+                            <h4 className="cursor-pointer flex gap-2 text-[#4CAF4F] font-[600] mt-1 sm:mt-[7px] text-base sm:text-[20px] justify-center items-center mb-1 sm:mb-3">
+                                Readmore <FaArrowRight className="mt-1 sm:mt-2" />
                             </h4>
                         </div>
                     </div>
                     
                     {/* Second Report Card */}
-                    <div className="rounded w-[360px] h-[280px] bg-wrapper1-pattern bg-cover bg-no-repeat bg-center">
-                        <div className="w-[300px] m-auto text-center bg-[#F5F7FA] p-2 rounded-[8px] mt-[190px] shadow-lg">
-                            <h4 className="w-[285px] font-[600] text-[20px] text-[#717171]">
-                            Miners arrested and 23 excavators seized at Tarkwa. 
+                    <div className="rounded w-full sm:w-[360px] h-[280px] bg-wrapper1-pattern bg-cover bg-no-repeat bg-center">
+                        <div className="w-[90%] sm:w-[300px] mx-auto text-center bg-[#F5F7FA] p-2 rounded-[8px] mt-[190px] shadow-lg">
+                            <h4 className="w-full sm:w-[285px] font-[600] text-base sm:text-[20px] text-[#717171] mx-auto">
+                                Miners arrested and 23 excavators seized at Tarkwa.
                             </h4>
-                            <h4 className="cursor-pointer flex gap-2 text-[#4CAF4F] font-[600] mt-[7px] text-[20px] mb-3 ml-[90px]">
-                                Readmore <FaArrowRight className="mt-2" />
+                            <h4 className="cursor-pointer flex gap-2 text-[#4CAF4F] font-[600] mt-1 sm:mt-[7px] text-base sm:text-[20px] justify-center items-center mb-1 sm:mb-3">
+                                Readmore <FaArrowRight className="mt-1 sm:mt-2" />
                             </h4>
                         </div>
                     </div>
                     
                     {/* Third Report Card */}
-                    <div className="rounded w-[360px] h-[280px] bg-wrapper2-pattern bg-cover bg-no-repeat bg-center">
-                        <div className="w-[300px] m-auto text-center bg-[#F5F7FA] p-2 rounded-[8px] mt-[190px] shadow-lg">
-                            <h4 className="w-[270px] font-[600] text-[20px] text-[#717171]">
-                            Rivers at mining sites contain toxic chemicals like mercury.
+                    <div className="rounded w-full sm:w-[360px] h-[280px] bg-wrapper2-pattern bg-cover bg-no-repeat bg-center">
+                        <div className="w-[90%] sm:w-[300px] mx-auto text-center bg-[#F5F7FA] p-2 rounded-[8px] mt-[190px] shadow-lg">
+                            <h4 className="w-full sm:w-[270px] font-[600] text-base sm:text-[20px] text-[#717171] mx-auto">
+                                Rivers at mining sites contain toxic chemicals like mercury.
                             </h4>
-                            <h4 className="cursor-pointer flex gap-2 text-[#4CAF4F] font-[600] mt-[7px] text-[20px] mb-3 ml-[90px]">
-                                Readmore <FaArrowRight className="mt-2" />
+                            <h4 className="cursor-pointer flex gap-2 text-[#4CAF4F] font-[600] mt-1 sm:mt-[7px] text-base sm:text-[20px] justify-center items-center mb-1 sm:mb-3">
+                                Readmore <FaArrowRight className="mt-1 sm:mt-2" />
                             </h4>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-col items-center">
-                <h2 className="font-[600] text-[36px] text-center text-[#4D4D4D]">
+            {/* Partners Section */}
+            <div className="flex flex-col items-center px-4">
+                <h2 className="font-[600] text-2xl sm:text-3xl lg:text-[36px] text-center text-[#4D4D4D]">
                     Our Partners
                 </h2>
-                <p className="text-center text-[#717171] text-[16px] font-[400] max-w-[600px]">
+                <p className="text-center text-[#717171] text-sm sm:text-[16px] font-[400] max-w-full sm:max-w-[600px]">
                     We collaborate with industry-leading organizations to drive innovation and deliver impactful solutions.
                 </p>
-                <div className="flex justify-center gap-[150px] mt-[41px]">
-                    <img src={asidaimages1} alt="Partner logo 1" className="h-[120px] w-auto mt-[-30px]" />
-                    <img src={asidaimages2} alt="Partner logo 2" className="h-[70px] w-auto" />
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-[150px] mt-6 sm:mt-[41px] w-full">
+                    <img 
+                        src={asidaimages1} 
+                        alt="Partner logo 1" 
+                        className="h-16 sm:h-24 lg:h-[120px] w-auto sm:mt-0 lg:mt-[-30px]" 
+                    />
+                    <img 
+                        src={asidaimages2} 
+                        alt="Partner logo 2" 
+                        className="h-12 sm:h-16 lg:h-[70px] w-auto mt-4 sm:mt-0" 
+                    />
                 </div>
             </div>
         </div>
