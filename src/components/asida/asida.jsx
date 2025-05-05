@@ -7,7 +7,7 @@ import TallFooter from "../tallfooter/tallfooter";
 export default function Asida() {
     return (
         <div className="px-4 sm:px-6">
-            {/* Team Section */}
+        
             <div className="max-w-7xl mx-auto">
                 <h2 className="w-full md:w-[542px] mx-auto text-center text-2xl sm:text-3xl md:text-[36px] text-[#4D4D4D] mt-8 md:mt-[40px] font-[600]">
                     Meet Team Eagle
@@ -88,7 +88,7 @@ export default function Asida() {
                 </div>
             </div>
             
-            {/* Footer Section */}
+           
             <section className="bg-custom-silver py-6 md:py-[32px] mt-8 md:mt-[40px]">
                 <TallFooter />
             </section>
