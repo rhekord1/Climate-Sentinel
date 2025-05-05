@@ -10,6 +10,21 @@ const HeroCarousel = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    dots: true
+                }
+            }
+        ]
     };
 
     const slides = [
@@ -34,31 +49,31 @@ const HeroCarousel = () => {
     ];
 
     return (
-        <div className="mt-20 mb-16">
+        <div className="mt-12 mb-16 px-4 sm:px-6"> {/* Reduced mt-20 to mt-12 */}
             <Slider {...settings}>
                 {slides.map((slide, index) => (
-                    <div
-                        key={index}
-                        className="flex justify-center"
-                    >
-                        <div className="w-full max-w-6xl flex gap-8 m-auto mb-12">
-                            <div className="mb-16 w-3/5">
+                    <div key={index} className="outline-none">
+                        <div className="w-full max-w-6xl mx-auto flex flex-col md:flex-row gap-8 mb-12">
+                            {/* Text Content */}
+                            <div className="w-full md:w-3/5 mb-8 md:mb-12"> {/* Reduced mb-16 to mb-12 */}
                                 <div className="w-full">
-                                    <h1 className="text-4xl font-semibold text-gray-700 leading-tight">
+                                    <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-700 leading-tight">
                                         {slide.title}
                                         <span className="text-green-500">
                                             Galamsey by 2030
                                         </span>
                                     </h1>
-                                    <p className="text-base font-normal text-gray-500 mt-4 w-full">
+                                    <p className="text-sm sm:text-base font-normal text-gray-500 mt-3 sm:mt-4 w-full"> {/* Reduced mt-4 to mt-3 */}
                                         {slide.description}
                                     </p>
-                                    <button className="p-4 px-12 mt-8 rounded bg-green-500 text-white font-medium text-base leading-6">
+                                    <button className="p-3 sm:p-4 px-8 sm:px-12 mt-5 sm:mt-6 rounded bg-green-500 text-white font-medium text-sm sm:text-base leading-6"> {/* Reduced mt-8 to mt-5 */}
                                         {slide.buttonLabel}
                                     </button>
                                 </div>
                             </div>
-                            <div className="relative w-2/5">
+                            
+                            {/* Image/Pattern */}
+                            <div className="w-full md:w-2/5 h-48 sm:h-64 md:h-80 relative">
                                 <div className="bg-hero-pattern absolute inset-0 bg-no-repeat bg-contain bg-center"></div>
                             </div>
                         </div>
