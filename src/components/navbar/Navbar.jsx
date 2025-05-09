@@ -93,7 +93,7 @@ export default function Navbar() {
           </li>
           <li className="group">
             <a
-              href=""
+              href="/dashboard"
               className="font-inter text-sm font-normal leading-6 text-[#18191F] hover:text-[#4CAF4F] transition-colors duration-300 relative after:content-[''] after:absolute after:w-0 after:h-[2px] after:bg-[#4CAF4F] after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300"
             >
               Dashboard
@@ -101,7 +101,7 @@ export default function Navbar() {
           </li>
           <li className="group">
             <a
-              href=""
+              href="/analytics"
               className="font-inter text-sm font-normal leading-6 text-[#18191F] hover:text-[#4CAF4F] transition-colors duration-300 relative after:content-[''] after:absolute after:w-0 after:h-[2px] after:bg-[#4CAF4F] after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300"
             >
               Analytics
@@ -109,7 +109,7 @@ export default function Navbar() {
           </li>
           <li className="group">
             <a
-              href=""
+              href="/camera-panel"
               className="font-inter text-sm font-normal leading-6 text-[#18191F] hover:text-[#4CAF4F] transition-colors duration-300 relative after:content-[''] after:absolute after:w-0 after:h-[2px] after:bg-[#4CAF4F] after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300"
             >
               Camera Panel
@@ -186,7 +186,7 @@ export default function Navbar() {
               <div className="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg overflow-hidden z-50 border border-gray-100">
                 <div className="py-1">
                   <a
-                    href="#"
+                    href="/login"
                     className="block px-3 py-1.5 text-xs text-gray-700 hover:bg-gray-100"
                   >
                     Profile
@@ -232,21 +232,21 @@ export default function Navbar() {
             About
           </a>
           <a
-            href=""
+            href="/dashboard"
             className="font-inter text-sm py-2 px-3 rounded hover:bg-gray-50 text-[#18191F] hover:text-[#4CAF4F] transition-colors duration-300"
             onClick={() => setMobileMenuOpen(false)}
           >
             Dashboard
           </a>
           <a
-            href=""
+            href="/analytics"
             className="font-inter text-sm py-2 px-3 rounded hover:bg-gray-50 text-[#18191F] hover:text-[#4CAF4F] transition-colors duration-300"
             onClick={() => setMobileMenuOpen(false)}
           >
             Analytics
           </a>
           <a
-            href=""
+            href="/camera-panel"
             className="font-inter text-sm py-2 px-3 rounded hover:bg-gray-50 text-[#18191F] hover:text-[#4CAF4F] transition-colors duration-300"
             onClick={() => setMobileMenuOpen(false)}
           >
