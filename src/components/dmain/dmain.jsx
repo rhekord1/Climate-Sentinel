@@ -2,15 +2,15 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 
-// Set Mapbox access token
+
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
 
-// Coordinates for animation sequence
-const GLOBE_VIEW = { center: [0, 20], zoom: 2 }; // Global view centered on Africa
-const GHANA_VIEW = { center: [-1.0232, 7.9465], zoom: 6 }; // Ghana view
-const ATEWA_VIEW = { center: [-0.5893, 6.2338], zoom: 12 }; // Atewa Forest view
 
-// Forest zones data
+const GLOBE_VIEW = { center: [0, 20], zoom: 2 }; 
+const GHANA_VIEW = { center: [-1.0232, 7.9465], zoom: 6 }; 
+const ATEWA_VIEW = { center: [-0.5893, 6.2338], zoom: 12 }; 
+
+
 const forestZones = {
   type: "FeatureCollection",
   features: [
@@ -82,7 +82,7 @@ export default function MapboxMap() {
   useEffect(() => {
     if (!mapContainer.current || map.current) return;
 
-    // Initialize map with global view
+  
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/outdoors-v12",
@@ -93,13 +93,13 @@ export default function MapboxMap() {
     map.current.on("load", () => {
       if (!map.current) return;
 
-      // Add forest zones
+    
       map.current.addSource("zones", {
         type: "geojson",
         data: forestZones,
       });
 
-      // Add zone fills
+     
       map.current.addLayer({
         id: "zone-fills",
         type: "fill",
@@ -120,7 +120,7 @@ export default function MapboxMap() {
         },
       });
 
-      // Add zone borders
+      
       map.current.addLayer({
         id: "zone-borders",
         type: "line",
@@ -131,7 +131,7 @@ export default function MapboxMap() {
         },
       });
 
-      // Add zone labels
+     
       map.current.addLayer({
         id: "zone-labels",
         type: "symbol",
@@ -160,10 +160,10 @@ export default function MapboxMap() {
         setHoveredZone(null);
       });
 
-      // Add navigation controls
+      
       map.current.addControl(new mapboxgl.NavigationControl(), "top-right");
 
-      // Zoom animation sequence
+    
       setTimeout(() => {
         map.current?.flyTo({
           center: GHANA_VIEW.center,
@@ -191,7 +191,7 @@ export default function MapboxMap() {
     };
   }, []);
 
-  // Update hover effect when hoveredZone changes
+  
   useEffect(() => {
     if (!map.current || !map.current.isStyleLoaded()) return;
     
@@ -215,7 +215,7 @@ export default function MapboxMap() {
           }}
         />
         
-        {/* Zone Hover Tooltip */}
+        
         {hoveredZone && (
           <div className="absolute left-1/2 bottom-4 z-10 -translate-x-1/2 bg-black/75 px-4 py-2 rounded-lg">
             <p className="text-white text-sm">{hoveredZone}</p>
