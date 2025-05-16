@@ -12,7 +12,7 @@ export default function Home() {
                 </div>
             </section>
             
-            <Main /> {/* This will now expand to fill remaining space */}
+            <Main /> 
             
             <section className="bg-[#263238] py-[32px]">
                 <Footer />

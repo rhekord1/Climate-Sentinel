@@ -5,8 +5,6 @@ import Info from "../components/info/info";
 import Main from "../components/main/main";
 import Cameramodule from "../components/cameramodule/cameramodule";
 import Navbar from "../components/navbar/Navbar";
-import TallFooter from "../components/tallfooter/tallfooter";
-import Wrap from "../components/wrap/wrap";
 import Wrapper from "../components/wrapper/wrapper";
 
 export default function Home() {
