@@ -17,12 +17,16 @@ export default function Cameramodule() {
                         
                         {/* Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4 mt-6 lg:mt-8">
+                            <a href="/camera-panel">
                             <button className="py-2 sm:py-3 px-6 sm:px-8 bg-custom-green rounded text-white font-[500] text-sm sm:text-[16px] hover:bg-green-600 transition-colors">
                                 View Historical Images
                             </button>
+                            </a>
+                            <a href="/camera-panel">
                             <button className="py-2 sm:py-3 px-6 sm:px-8 bg-custom-blue rounded text-white font-[500] text-sm sm:text-[16px] hover:bg-blue-600 transition-colors">
                                 View Live Images
                             </button>
+                            </a>
                         </div>
                         
                         <p className="w-full lg:w-[550px] text-sm sm:text-[14px] font-[400] text-[#717171] mt-4 lg:mt-[16px]">

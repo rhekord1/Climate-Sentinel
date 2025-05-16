@@ -20,9 +20,11 @@ export default function CameraModule() {
                             Our system captures evidence, triggers alerts, and logs all activity on a secure dashboard.
                             We work closely with environmental agencies and local authorities to provide verified reports that support enforcement actions and long-term forest conservation.
                         </p>
+                        <a href="/about">
                         <button className="py-2 sm:py-3 px-6 sm:px-8 bg-custom-green rounded text-white mt-6 sm:mt-8 font-medium text-sm sm:text-[16px] hover:bg-green-600 transition-colors duration-300">
                             Learn More
                         </button>
+                        </a>
                     </div>
                 </div>
             </div>

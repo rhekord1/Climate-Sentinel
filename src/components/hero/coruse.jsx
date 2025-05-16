@@ -35,15 +35,15 @@ const HeroCarousel = () => {
             buttonLabel: "Learn more",
         },
         {
-            title: "Leveraging AI and IoT to protect Ghana's forests and combat ",
+            title: "Eagle Device Identifies Threats Through Sound in the Forest to combat ",
             description:
-                "266 number of Forests are recognized in Ghana out of which 44 are inhabited by illegal mining companies. Climate Sentinel works with over 1000+ dataset of sound, light and image to train AI models using Huawei's MindSpore framework to formulate a device that detects the occurance of illegal activities in the forest.",
+                "In a protected forest zone, the Eagle device picks up the distinct sound pattern of heavy machinery. Using its sound recognition algorithm, it confirms the threat through the image analysis and sends an alert to the Climate Sentinel web app.",
             buttonLabel: "Learn more",
         },
         {
-            title: "Leveraging AI and IoT to protect Ghana's forests and combat ",
+            title: "When Night Turns Bright: A Warning Signal is sent  and combat ",
             description:
-                "266 number of Forests are recognized in Ghana out of which 44 are inhabited by illegal mining companies. Climate Sentinel works with over 1000+ dataset of sound, light and image to train AI models using Huawei's MindSpore framework to formulate a device that detects the occurance of illegal activities in the forest.",
+                "In the middle of the night, the Eagle device detects an unexpected source of light deep in the forest, possibly from flashlights, vehicle beams, or illegal mining operations. If it recognizes the anomaly and the image analysis confirms it, an instant alert is sent to respective agents.",
             buttonLabel: "Learn more",
         },
     ];
@@ -55,7 +55,7 @@ const HeroCarousel = () => {
                     <div key={index} className="outline-none">
                         <div className="w-full max-w-6xl mx-auto flex flex-col md:flex-row gap-8 mb-12">
                             {/* Text Content */}
-                            <div className="w-full md:w-3/5 mb-8 md:mb-12"> {/* Reduced mb-16 to mb-12 */}
+                            <div className="w-full md:w-3/5 mb-8 md:mb-12"> 
                                 <div className="w-full">
                                     <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-700 leading-tight">
                                         {slide.title}
@@ -66,9 +66,12 @@ const HeroCarousel = () => {
                                     <p className="text-sm sm:text-base font-normal text-gray-500 mt-3 sm:mt-4 w-full"> {/* Reduced mt-4 to mt-3 */}
                                         {slide.description}
                                     </p>
+                                    <a href="/about">
                                     <button className="p-3 sm:p-4 px-8 sm:px-12 mt-5 sm:mt-6 rounded bg-green-500 text-white font-medium text-sm sm:text-base leading-6"> {/* Reduced mt-8 to mt-5 */}
                                         {slide.buttonLabel}
+
                                     </button>
+                                    </a>
                                 </div>
                             </div>
                             

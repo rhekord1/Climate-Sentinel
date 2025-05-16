@@ -20,11 +20,13 @@ export default function Wrapper() {
                     <div className="rounded w-full sm:w-[360px] h-[280px] bg-wrapper-pattern bg-cover bg-no-repeat bg-center">
                         <div className="w-[90%] sm:w-[300px] mx-auto text-center bg-[#F5F7FA] p-2 rounded-[8px] mt-[190px] shadow-lg">
                             <h4 className="w-full sm:w-[285px] font-[600] text-base sm:text-[20px] text-[#717171] mx-auto">
-                                Galamsey, the highest cause of Ghana's vegetation loss.
+                            Ghana Gold Mining Disaster
                             </h4>
+                            <a href = "/analytics"> 
                             <h4 className="cursor-pointer flex gap-2 text-[#4CAF4F] font-[600] mt-1 sm:mt-[7px] text-base sm:text-[20px] justify-center items-center mb-1 sm:mb-3">
                                 Readmore <FaArrowRight className="mt-1 sm:mt-2" />
                             </h4>
+                            </a>
                         </div>
                     </div>
                     
@@ -32,11 +34,13 @@ export default function Wrapper() {
                     <div className="rounded w-full sm:w-[360px] h-[280px] bg-wrapper1-pattern bg-cover bg-no-repeat bg-center">
                         <div className="w-[90%] sm:w-[300px] mx-auto text-center bg-[#F5F7FA] p-2 rounded-[8px] mt-[190px] shadow-lg">
                             <h4 className="w-full sm:w-[285px] font-[600] text-base sm:text-[20px] text-[#717171] mx-auto">
-                                Miners arrested and 23 excavators seized at Tarkwa.
+                            Human Rights and Illegal Mining Concerns Across Africa
                             </h4>
+                            <a href = "/analytics">
                             <h4 className="cursor-pointer flex gap-2 text-[#4CAF4F] font-[600] mt-1 sm:mt-[7px] text-base sm:text-[20px] justify-center items-center mb-1 sm:mb-3">
                                 Readmore <FaArrowRight className="mt-1 sm:mt-2" />
                             </h4>
+                            </a>
                         </div>
                     </div>
                     
@@ -44,11 +48,13 @@ export default function Wrapper() {
                     <div className="rounded w-full sm:w-[360px] h-[280px] bg-wrapper2-pattern bg-cover bg-no-repeat bg-center">
                         <div className="w-[90%] sm:w-[300px] mx-auto text-center bg-[#F5F7FA] p-2 rounded-[8px] mt-[190px] shadow-lg">
                             <h4 className="w-full sm:w-[270px] font-[600] text-base sm:text-[20px] text-[#717171] mx-auto">
-                                Rivers at mining sites contain toxic chemicals like mercury.
+                            Dangerous Effects of Illegal Mining
                             </h4>
+                            <a href = "/analytics">
                             <h4 className="cursor-pointer flex gap-2 text-[#4CAF4F] font-[600] mt-1 sm:mt-[7px] text-base sm:text-[20px] justify-center items-center mb-1 sm:mb-3">
                                 Readmore <FaArrowRight className="mt-1 sm:mt-2" />
                             </h4>
+                            </a>
                         </div>
                     </div>
                 </div>

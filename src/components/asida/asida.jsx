@@ -1,5 +1,5 @@
 import asidaimages7 from "../../assets/Julius.png";
-import asidaimages8 from "../../assets/Wisdom.png";
+import asidaimages8 from "../../assets/Wisdom.jpg";
 import asidaimages9 from "../../assets/Ebrah.png";
 import asidaimages10 from "../../assets/Ryan.png";
 import TallFooter from "../tallfooter/tallfooter";

@@ -47,21 +47,19 @@ export default function Footer() {
                             Company
                         </h4>
                         <div className="flex flex-col gap-2 sm:gap-3">
-                            <a className="text-white font-[400] text-xs sm:text-[14px] hover:underline text-center sm:text-left" href="#">
+                            <a className="text-white font-[400] text-xs sm:text-[14px] hover:underline text-center sm:text-left" href="/about">
                                 About us
                             </a>
-                            <a className="text-white font-[400] text-xs sm:text-[14px] hover:underline text-center sm:text-left" href="#">
+                            <a className="text-white font-[400] text-xs sm:text-[14px] hover:underline text-center sm:text-left" href="/dashboard">
                                 Dashboard
                             </a>
-                            <a className="text-white font-[400] text-xs sm:text-[14px] hover:underline text-center sm:text-left" href="#">
+                            <a className="text-white font-[400] text-xs sm:text-[14px] hover:underline text-center sm:text-left" href="/analytics">
                                 Analytics
                             </a>
-                            <a className="text-white font-[400] text-xs sm:text-[14px] hover:underline text-center sm:text-left" href="#">
+                            <a className="text-white font-[400] text-xs sm:text-[14px] hover:underline text-center sm:text-left" href="/camera-panel">
                                 Camera Panel
                             </a>
-                            <a className="text-white font-[400] text-xs sm:text-[14px] hover:underline text-center sm:text-left" href="#">
-                                Testimonials
-                            </a>
+                            
                         </div>
                     </div>
 
