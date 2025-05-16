@@ -1,6 +1,6 @@
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useState } from "react";
-import navbarlogo from "../assets/Logo.svg";
+import navbarlogo from "../assets/logo.svg";
 import logpic from "../assets/logpic.jpg";
 
 export default function Login() {
