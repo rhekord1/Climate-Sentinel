@@ -11,3 +11,11 @@
 .card_shadow {
     box-shadow: 0px 2px 4px 0px #abbed133;
 }
+
+@media (forced-colors: active) {
+    body {
+      background-color: Canvas;
+      color: CanvasText;
+    }
+  }
+  
