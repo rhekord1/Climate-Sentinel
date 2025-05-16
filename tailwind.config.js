@@ -16,9 +16,9 @@ export default {
                 "asida-pattern": "url('../src/assets/asidaimages10.png')",
                 "main-pattern": "url('../src/assets/mainimages.png')",
                 "cam-pattern": "url('../src/assets/cameramodule.png')",
-                "wrapper-pattern": "url('../src/assets/gam1.png')",
-                "wrapper1-pattern": "url('../src/assets/gam2.png')",
-                "wrapper2-pattern": "url('../src/assets/gam3.png')",
+                "wrapper-pattern": "url('../src/assets/ar1.jpg')",
+                "wrapper1-pattern": "url('../src/assets/ar2.jpg')",
+                "wrapper2-pattern": "url('../src/assets/ar3.jpg')",
             },
             lineHeight: {
                 "custom-76": "76px",
