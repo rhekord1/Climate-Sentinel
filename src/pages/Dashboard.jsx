@@ -14,9 +14,7 @@ export default function Home() {
             
             <Main /> 
             
-            <section className="bg-[#263238] py-[32px]">
-                <Footer />
-            </section>
+            
         </div>
     );
 }
