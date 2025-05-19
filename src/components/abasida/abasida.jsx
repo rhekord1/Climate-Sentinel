@@ -1,7 +1,7 @@
 
 
 import asidaimages7 from "../../assets/Julius.png";
-import asidaimages8 from "../../assets/Wisdom.png";
+import asidaimages8 from "../../assets/Wisdom.jpg";
 import asidaimages9 from "../../assets/Ebrah.png";
 import asidaimages10 from "../../assets/Ryan.png";
 
@@ -20,23 +20,7 @@ export default function Asida() {
                             
                             {/* Team Cards - Responsive Grid */}
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-[10px] justify-center mt-4 md:mt-[16px]">
-                                {/* Supervisor Card */}
-                                <div className="card_shadow rounded p-4 md:p-5 w-full sm:w-[240px] flex flex-col items-center mx-auto">
-                                    <div className="w-full sm:w-[220px] h-[160px] sm:h-[180px] mb-3 md:mb-4 overflow-hidden">
-                                        <img
-                                            className="w-full h-full object-cover"
-                                            src={asidaimages7}
-                                            alt="Mr. Julius Ludu"
-                                        />
-                                    </div>
-                                    <h3 className="font-[700] text-lg md:text-[23px] text-center text-[#4d4d4d]">
-                                        Supervisor
-                                    </h3>
-                                    <p className="text-center text-xs md:text-[14px] font-[400] text-[#717171]">
-                                        Mr. Julius Ludu
-                                    </p>
-                                </div>
-                                
+                               
                                 {/* Software Engineer Card */}
                                 <div className="card_shadow rounded p-4 md:p-5 w-full sm:w-[240px] flex flex-col items-center mx-auto">
                                     <div className="w-full sm:w-[220px] h-[160px] sm:h-[180px] mb-3 md:mb-4 overflow-hidden">
@@ -47,7 +31,7 @@ export default function Asida() {
                                         />
                                     </div>
                                     <h3 className="font-[700] text-lg md:text-[23px] text-center text-[#4d4d4d]">
-                                        Software Engineer
+                                        Software Developer
                                     </h3>
                                     <p className="text-center text-xs md:text-[14px] font-[400] text-[#717171]">
                                         Ryan Brown
@@ -64,7 +48,7 @@ export default function Asida() {
                                         />
                                     </div>
                                     <h3 className="font-[700] text-lg md:text-[23px] text-center text-[#4d4d4d]">
-                                        Product Designer
+                                        Product Designer & Strategist
                                     </h3>
                                     <p className="text-center text-xs md:text-[14px] font-[400] text-[#717171]">
                                         Wisdom Nana-Abena Ogbonna
@@ -87,6 +71,24 @@ export default function Asida() {
                                         Jehoadan Ebrah
                                     </p>
                                 </div>
+            
+                                 {/* Supervisor Card */}
+                                 <div className="card_shadow rounded p-4 md:p-5 w-full sm:w-[240px] flex flex-col items-center mx-auto">
+                                    <div className="w-full sm:w-[220px] h-[160px] sm:h-[180px] mb-3 md:mb-4 overflow-hidden">
+                                        <img
+                                            className="w-full h-full object-cover"
+                                            src={asidaimages7}
+                                            alt="Mr. Julius Ludu"
+                                        />
+                                    </div>
+                                    <h3 className="font-[700] text-lg md:text-[23px] text-center text-[#4d4d4d]">
+                                        Supervisor
+                                    </h3>
+                                    <p className="text-center text-xs md:text-[14px] font-[400] text-[#717171]">
+                                        Mr. Julius Ludu
+                                    </p>
+                                </div>
+                                
                             </div>
                         </div>
                         <div className="px-4 sm:px-6 lg:px-8">
