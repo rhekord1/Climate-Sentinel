@@ -1,6 +1,6 @@
 import { FaArrowRight } from "react-icons/fa6";
-import asidaimages1 from "../../assets/part1.png";
-import asidaimages2 from "../../assets/part2.png";
+import asidaimages1 from "../../assets/p1.jpg";
+import asidaimages2 from "../../assets/p2.jpg";
 
 export default function Wrapper() {
     return (
@@ -77,7 +77,7 @@ export default function Wrapper() {
                     <img 
                         src={asidaimages2} 
                         alt="Partner logo 2" 
-                        className="h-12 sm:h-16 lg:h-[70px] w-auto mt-4 sm:mt-0" 
+                        className="h-12 sm:h-16 lg:h-[120px] w-auto mt-4 sm:mt-0" 
                     />
                 </div>
             </div>
