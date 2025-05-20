@@ -1,4 +1,4 @@
-import navbarlogo from "../../assets/logo.svg";
+import navbarlogo from "../../assets/Logo.svg";
 import { BellIcon, UserCircleIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState, useRef, useEffect } from "react";
 
